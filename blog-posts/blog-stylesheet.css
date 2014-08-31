@@ -1,0 +1,139 @@
+body{
+  font-family:monospace, sans-serif;
+  font-weight: bold;
+  background-image: url(/Users/jordy_williams14/Desktop/wiliajc87.github.io/imgs/concretebg.jpg);
+}
+/*General Layout Settings*/
+#header, #post, #copyright, #nav{
+  display: inline-block;
+  margin: 15px 8px 5px 20px;
+  max-width: 73%;
+  min-width: 75%
+}
+#twitter, #recent_posts{
+  display:inline-block;
+  float: right;
+  clear: right;
+  margin: 15px 10px 5px 0px;
+  padding-left: 0;
+  width: 20%;
+}
+/*Colors*/
+#header, #copyright{
+  background-color: blue;
+}
+
+/*Specific Settings*/
+#nav ul, #post{
+  border-radius: 30px;
+}
+#header, #copyright{
+  border-radius:10px;
+}
+#header
+{
+  font-size: 3.8em;
+  text-align: left;
+}
+#twitter
+{
+  height: 250px;
+  width: 250px;
+}
+#twitter img {
+max-width:100%;
+max-height:100%;
+}
+#nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: inherit;
+}
+              #nav li
+                {
+                  float: left;
+                  width: 25%;
+                }
+               #nav a
+                {
+                    display: block;
+                    background-color: #00AFD4;
+                    text-align: center;
+                    padding: 4px;
+                    text-decoration: none;
+                    color:black;
+                }
+                #nav a:hover
+                {
+                    color:blue;
+                }
+#post {
+  background-color: lightblue;
+}
+#title
+{
+  font-size: 2.5em;
+  margin: 3px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+#date
+{
+  font-size: 1em;
+  margin: 3px;
+  margin-left:10px;
+  padding-left: 10px;
+}
+#content p
+{
+  font-size: 1.1em;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#dharma_signature p
+{
+  padding: 0;
+  margin: 0;
+  padding-left:10px;
+  margin-left:10px;
+  font-size: 2em;
+}
+#recent_posts
+{
+  text-align: left;
+  background-color:#00AFD4;
+  border-radius:20px;
+  margin-left: -15px;
+  max-width:100%;
+  max-height: 100%;
+}
+#recent_posts ul{
+  list-style: none;
+}
+                #wanna
+                {
+                  font-size: 1.5em;
+                  font-style: italic;
+                }
+                #post_list a
+                {
+                  margin-left: -18%;
+                  text-decoration: none;
+                  color:black;
+                }
+                #post_list a:hover
+                {
+                  color:blue;
+                }
+
+#copyright
+{
+  display: block;
+  max-width: 75%;
+}
