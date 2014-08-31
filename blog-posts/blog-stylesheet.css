@@ -1,7 +1,7 @@
 body{
   font-family:monospace, sans-serif;
   font-weight: bold;
-  background-image: url(/Users/jordy_williams14/Desktop/wiliajc87.github.io/imgs/concretebg.jpg);
+  background-image: url(http://wiliajc87.github.io/imgs/concretebg.jpg);
 }
 /*General Layout Settings*/
 #header, #post, #copyright, #nav{
