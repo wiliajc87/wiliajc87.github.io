@@ -17,11 +17,6 @@ body{
   padding-left: 0;
   width: 20%;
 }
-/*Colors*/
-#header, #copyright{
-  background-color: blue;
-}
-
 /*Specific Settings*/
 #nav ul, #post{
   border-radius: 30px;
@@ -67,7 +62,7 @@ max-height:100%;
                 }
                 #nav a:hover
                 {
-                    color:blue;
+                    background-color:blue;
                 }
 #post {
   background-color: lightblue;
@@ -102,6 +97,7 @@ max-height:100%;
   padding-left:10px;
   margin-left:10px;
   font-size: 2em;
+  color:blue;
 }
 #recent_posts
 {
