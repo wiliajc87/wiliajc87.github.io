@@ -90,6 +90,12 @@ max-height:100%;
   padding-bottom: 0;
   margin-bottom: 0;
 }
+#content img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #dharma_signature p
 {
   padding: 0;
