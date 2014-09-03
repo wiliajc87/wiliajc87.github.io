@@ -93,7 +93,9 @@ body{
     margin-right: auto;
 }
 #content ul{
-  margin-top: -1%;
+  font-size: 2.5em;
+  margin: 3px 3px 3px 10px;
+  padding-left: 10px;
   font-size: .7em;
 }
 #dharma_signature p
