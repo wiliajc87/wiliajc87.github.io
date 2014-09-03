@@ -1,0 +1,75 @@
+body{
+  font-family:monospace, sans-serif;
+  font-weight: bold;
+}
+#twitter{
+  display:inline-block;
+  float: left;
+  clear: left;
+  margin-top:2%;
+  margin-left:6.5%;
+  margin-right:1%;
+  width: 40%;
+}
+div article{
+  background-color: lightblue;
+  float:right;
+  clear: right;
+  height:250px;
+  margin-top:2%;
+  margin-right:1%;
+  max-width: 45%;
+  margin-right:6.5%;
+}
+header, footer, nav{
+  display: block;
+  margin: 10px auto 10px auto;
+  clear: both;
+  max-width: 60%;
+  text-align: center;
+}
+header a{
+  text-decoration: none;
+  color:black;
+}
+nav ul{
+  border-radius: 30px;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: inherit;
+}
+              nav li
+                {
+                  float: left;
+                  width: 25%;
+                }
+               nav a
+                {
+                    display: block;
+                    background-color: #00AFD4;
+                    text-align: center;
+                    padding: 4px;
+                    text-decoration: none;
+                    color:black;
+                }
+                nav a:hover
+                {
+                    background-color:blue;
+                }
+article p{
+  font-size: 1.1em;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+footer{
+  display: block;
+  border-radius: 10px;
+  background-color:blue;
+  margin-top:28%;
+}
