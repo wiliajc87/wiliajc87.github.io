@@ -80,6 +80,12 @@ article p{
   padding: 10px;
   text-align: left;
 }
+article dl{
+  font-size: 1.1em;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
 footer{
   display: block;
   border-radius: 10px;
