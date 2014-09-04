@@ -18,7 +18,7 @@ body{
   width: 20%;
 }
 /*Specific Settings*/
-#nav ul, #post{
+#nav ul{
   border-radius: 30px;
 }
 #header, #copyright{
