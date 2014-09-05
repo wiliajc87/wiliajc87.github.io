@@ -1,6 +1,4 @@
-/* You'll want to make the site responsive and nice looking here. Have fun!*/
-
-#wrapper {
+#wrapper{
   text-align: left;
   margin: 0% auto;
   padding: 0%;
@@ -35,26 +33,20 @@ a {
   display: block;
 }
 
-#side-b {
-  float: right;
-  width: 15.625%;
-}
-
-#content {
+  #content, #reflection{
   float: left;
   width: 68%;
 }
+#reflection
+{padding-left:15.625%;}
 
-#content img {
+#container img {
   width:100%;
 }
-
 #footer {
   clear: both;
   background: #A2A2A2;
 }
-
-/* Media Queries*/
 
 /* Media Queries */
 
@@ -67,10 +59,10 @@ a {
 }
 #side-a ul li{
   float:left;
-  font-size: .7em;
+  font-size: 1em;
   margin-right:3%;
 }
-#content{
+#container {
   width: 90%;
   font-size: 0.7em;
   margin-left: 5%;
