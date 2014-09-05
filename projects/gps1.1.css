@@ -13,10 +13,11 @@ body{
 }
 #header
 {
+  text-align: center;
   padding:-10px;
   margin: 1% calc(1% - 2px) 1% calc(1% - 2px);
 }
-#whatis, #DBC, #comparison, #copyright {
+#whatis, #DBC, #comparison, #copyright, #reflection {
   border: 2px solid;
   display: inline-block;
   float: left;
@@ -24,10 +25,7 @@ body{
   margin: 1% calc(1% - 2px) 1% calc(1% - 2px);
   border-radius: 30px;
 }
-#whatis {
-  width:48%;
-}
-#DBC {
+#whatis, #DBC {
   width:48%;
 }
 div h2, div p{
@@ -40,4 +38,7 @@ div h2, div p{
   border-radius:10px;
   clear:both;
   background-color:#00AFD4;
+}
+#copyright p {
+  padding:0 1% 0 1%;
 }
