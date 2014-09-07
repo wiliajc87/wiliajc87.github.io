@@ -31,6 +31,20 @@ article img{
     border-radius:50px;
     padding-top:3%;
 }
+article ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: inherit;
+}
+article li img
+  {
+    float: left;
+    margin-left: 6%;
+    margin-right: 4%;
+    margin-top: 7%
+  }
 header, footer, nav{
   display: block;
   margin: 10px auto 10px auto;
