@@ -99,6 +99,9 @@ body{
   margin: 3px 3px 3px 10px;
   padding-left: 10px;
 }
+#content h2{
+  font-style: italic;
+}
 #dharma_signature p
 {
   padding: 0;
