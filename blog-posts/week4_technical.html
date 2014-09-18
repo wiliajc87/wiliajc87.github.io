@@ -42,16 +42,16 @@
 <p>There's no reason to be mean about it--I admitted the joke was lame, OK?</p>
 <p>Alright--so, we've got these two different Enumerable methods in Ruby--#map and #inject. I often learn concepts best when I can compare them to another one--and I think #map and #inject are interesting because they (at their most basic forms) accomplish different but conceptually similar things.</p>
 <h2>--#map</h2>
-<p>#map is super useful if you need to do something to all of the elements of an array or a range of numbers. Why? Because it will run through every element in the array or range, do what you tell it to do to them, and then give you that new answer as an array. Check this out:</p>
+<p>#map is super useful if you need to do something to all of the elements of an array or a range of numbers. Why? Because it will run through every element in the array or range, do what you tell it to do to them, and then give you that new answer as an array. Check this out:<br></p>
   <code>a = [1, 2, 3]</code><br>
     <code>a.map {|x| x+1}</code><br>
     <code>=>[2, 3, 4]<br></code><br>
 <p>Alright--so, in the first line we defined an array (a) with three numbers. In the second line, we applied #map with a "block" of code to be executed on every element (represented by the x). #map then gives me a new array with the result. Don't worry about the block--I'm gonna explain that at the end, since it applies to #map AND #inject.</p>
-<p>Pro-tip--remember that #map is going to produce a NEW array--it isn't actually changing "a". If you want to permanently change "a", throw an "!" (also called a bang, ya know, if you're one of the cool kids) on the end like this--</p>
+<p>Pro-tip--remember that #map is going to produce a NEW array--it isn't actually changing "a". If you want to permanently change "a", throw an "!" (also called a bang, ya know, if you're one of the cool kids) on the end like this--<br></p>
 <code>a.map! {|x| x+1}<br></code>
 <p>Now, when you call on "a", you'll get the array with the additions made!</p>
 <h2>--#inject</h2>
-<p>And now, we look at that funny cousin of #map--#inject. #inject does a similar thing to #map in the sense that it runs a block of code over every element in an array (that's called iterating). The distinction is that it does NOT give you back an array. It gives you one total. Check this out--it's pretty freakin' cool:</p>
+<p>And now, we look at that funny cousin of #map--#inject. #inject does a similar thing to #map in the sense that it runs a block of code over every element in an array (that's called iterating). The distinction is that it does NOT give you back an array. It gives you one total. Check this out--it's pretty freakin' cool:<br></p>
 <code>a = [1, 2, 3]<br></code>
   <code>a.inject {|starting_point, x| starting_point + x}<br></code>
   <code>=> 6<br></code>
@@ -59,7 +59,7 @@
 <h2>--Blocks</h2>
 <p>Here's a quick primer on blocks, in case you're not familiar with them.</p>
 <p>Some methods can take blocks (a set of code to apply). Different method will allow different parameters to be used in their blocks. For instance--in #map, we just had "x" (Which I defined between those "|" characters. We call those pipes.)--and "x" represented the elements in the array. Every time the block ran (remember, it's going to run for EVERY ELEMENT IN THE RANGE OR ARRAY) the "x" represents the CURRENT ELEMENT that #map is working on.</p>
-<p>#inject, on the other hand, takes two parameters into the block--it has an element parameter, just like #map--but before that, it has a "starting point" parameter. That's because, if you so desire, you could make all of the elements in your array or range be added into a pre-set number! "How would that look?", I hear you asking. You talk really loud, by the way. It would look like this:</p>
+<p>#inject, on the other hand, takes two parameters into the block--it has an element parameter, just like #map--but before that, it has a "starting point" parameter. That's because, if you so desire, you could make all of the elements in your array or range be added into a pre-set number! "How would that look?", I hear you asking. You talk really loud, by the way. It would look like this:<br></p>
 <code>a.inject {|starting_point=20, x| x + starting_point}<br></code>
 <p>So now, every "x" will be added into that starting point--so if the array was "[1, 2, 3]", the output will be "26".</p>
 <p>The word you're looking for is "nifty".</p>
