@@ -45,7 +45,7 @@
 <p>#map is super useful if you need to do something to all of the elements of an array or a range of numbers. Why? Because it will run through every element in the array or range, do what you tell it to do to them, and then give you that new answer as an array. Check this out:</p><br>
   <code>a = [1, 2, 3]</code><br>
     <code>a.map {|x| x+1}</code><br>
-    <code>=>[2, 3, 4]<br></code><br>
+    <code>=>[2, 3, 4]</code><br>
 <p>Alright--so, in the first line we defined an array (a) with three numbers. In the second line, we applied #map with a "block" of code to be executed on every element (represented by the x). #map then gives me a new array with the result. Don't worry about the block--I'm gonna explain that at the end, since it applies to #map AND #inject.</p>
 <p>Pro-tip--remember that #map is going to produce a NEW array--it isn't actually changing "a". If you want to permanently change "a", throw an "!" (also called a bang, ya know, if you're one of the cool kids) on the end like this--</p><br>
 <code>a.map! {|x| x+1}<br></code>
