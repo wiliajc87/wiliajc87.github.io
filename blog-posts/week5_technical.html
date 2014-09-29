@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Blog of jordy williams</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="http://wiliajc87.github.io/blog-posts/blog-stylesheet.css">
+  </head>
+  <body>
+    <div id="header">The Blog of jordy williams</div>
+    <div id="twitter"><a class="twitter-timeline"  href="https://twitter.com/JordyThePoet"  data-widget-id="506850652706709504">Tweets by @jordyThePoet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+    <div id="nav">  <ul>
+            <li class="nav_button"><a href="../index.html">Home</a></li>
+            <li class="nav_button"><a href="../about.html">About jordy</a></li>
+            <li class="nav_button"><a href="../projects.html">Projects</a></li>
+            <li class="nav_button"><a href="../contact.html">Contact</a></li>
+          </li>
+      </ul>
+    </div>
+        <div id="recent_posts">
+        <p id="wanna">Wanna read more?</p>
+          <ul id="post_list">
+        <li><a href="http://wiliajc87.github.io/blog-posts/week5_cultural1.html">Sometimes You're Neo and Sometimes You're Mouse</a></li>
+        <li><a href="http://wiliajc87.github.io/blog-posts/week4_cultural.html">Because Uncle Ben Said So</a></li>
+        <li><a href="http://wiliajc87.github.io/blog-posts/week4_technical.html">Amerigo vs Wood</a></li>
+        <li><a href="http://wiliajc87.github.io/blog-posts/week3_technical.html">Java-what?</a></li>
+        <li><a href="http://wiliajc87.github.io/blog-posts/week3_cultural.html">Like a Pollock Painting</a></li>
+          </ul>
+    </div>
+    <div id="post">
+      <p id="title">Coding with Class</p>
+      <p id="date">09/28/2014</p>
+      <div id="content">
+<p>Alright, folks--today, we're going to talk Ruby Classes--and how darn cool they are! We're not going to go too far into this today, but we'll cover enough to get you started.</p>
+<p>Hypothetical situation--let's say you want to make a program that will allow the user to enter their DVD collection.</p>
+<p>The first thing you should do is make a class!<br></p>
+<code>class DVD<br></code>
+<code>end<br><code>
+<p>There ya go. Pretty simple. But this doesn't really do much for us. Next up, we've got to give it an initialize function--this will let the user enter new DVDs into the program.
+<code>class DVD</code>
+  <code>def initialize(title, genre, year)<br></code>
+  <code>@title = title<br></code>
+  <code>@genre = genre<br></code>
+  <code>@year = year<br></code>
+  <code>end<br></code>
+<code>end<br></code>
+<p>Alright--a bit more is going on here, so let's talk it through. First, we define a method called "intialize". And when the user calls it, they're going to enter three parameters--the title, the genre, and the year. (Obviously we could ask for more information--but I'm trying to keep this <a href="http://drive80.com/blog/wp-content/uploads/2014/07/dwight.jpg">simple</a>.)</p>
+<p>You're probably wondering what's going on with this "@title = title" bit. A fair question. A variable with preceded by a "@" symbol is an instance variable. Instance variables are useable throughout the class--And we're <a href="http://i177.photobucket.com/albums/w220/Davis_Andrews/what-you-did-there-i-see-it.jpg">INITALLY</a> setting each new object's values to whatever was entered by the user.</p>
+<p>And now, we have a fully defined class. Still a bit boring, though, right? Right.</p>
+<p>The cool thing is that we can ALSO create methods that work on a class. So let's add this--it's super simple, but hey--we're just learning how to crawl, right? Running comes later.<br></p>
+<code>class DVD<br></code>
+  <code>def initialize(title, genre, year)<br></code>
+  <code>@title = title<br></code>
+  <code>@genre = genre<br></code>
+  <code>@year = year<br></code>
+  <code>end<br></code>
+  <code>def title<br></code>
+    <code>p @title<br></code>
+  <code>end<br></code>
+<code>end<br></code>
+<p>So now, we've made a method called "#title". So if we enter...<br></p>
+<code>filth = DVD.new("Filth", "drama", 2013)<br></code>
+<p>That's going to create a variable called "filth"--and it points to an object (made up of the info in the parentheses) which is a part of the class DVD.</p>
+<p>If I then enter...<br></p>
+<code>a.title<br></code>
+<p>Ruby will return...<br></p>
+<code>"Filth"<br></code>
+<p>And this is the starting point of working with Classes in Ruby. You could keep adding methods to this class, work out ways to organize them, etc.</p>
+<p>Keep on coding, friends. Keep on coding.</p>
+      <div id="dharma_signature"><p>&#9784;</p></div>
+    </div>
+    <div id="copyright"><p>Copyright &#169; jordy williams 2014</p></div>
+  </body>
+</html>
