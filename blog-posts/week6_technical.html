@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Blog of jordy williams</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="http://wiliajc87.github.io/blog-posts/blog-stylesheet.css">
+  </head>
+  <body>
+    <div id="header">The Blog of jordy williams</div>
+    <div id="twitter"><a class="twitter-timeline"  href="https://twitter.com/JordyThePoet"  data-widget-id="506850652706709504">Tweets by @jordyThePoet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+    <div id="nav">  <ul>
+            <li class="nav_button"><a href="../index.html">Home</a></li>
+            <li class="nav_button"><a href="../about.html">About jordy</a></li>
+            <li class="nav_button"><a href="../projects.html">Projects</a></li>
+            <li class="nav_button"><a href="../contact.html">Contact</a></li>
+          </li>
+      </ul>
+    </div>
+        <div id="recent_posts">
+        <p id="wanna">Wanna read more?</p>
+          <ul id="post_list">
+            <!--<li><a href="post1.html">Most recent post title</a></li>
+            <li><a href="post2.html">Second most recent post title</a></li>
+            <li><a href="post3.html">Third most recent post title</a></li>
+            <li><a href="post4.html">Fourth most recent post title</a></li>
+            <li><a href="post5.html">Fifth most recent post title</a></li>-->
+          </ul>
+    </div>
+    <div id="post">
+      <p id="title">#map vs #each</p>
+      <p id="date">10/05/2014</p>
+      <div id="content">
+          <p>Let's look at something nice and simple this week--#each vs #map!. Just picture me as <a href="https://www.youtube.com/watch?v=YLO7tCdBVrA">Bob Ross</a>, showing you a couple of happy little methods.</p>
+          <p>It can be kind of tricky--because #each and #map <em>sound</em> like they're doing the same thing--here's the definition of #each: "Calls the given block once for each element in self, passing that element as a parameter."</p>
+          <p>And here's the #map definition: "Invokes the given block once for each element of self. Creates a new array containing the values returned by the block."</p>
+          <p>Let's talk about what they BOTH do first--they both cycle through the elements of the array and do whatever you asked them to do in the block. It's pretty darn useful.</p>
+          <p>But here's where things change--#each isn't really permanent--it's great for styling your output, making things print out a certain way. BUT--when you want to PERMANTELY CHANGE an array--you use #map!. And when you want to create a new array, it's best to use #map and set that equal to the new variable holding the new array.</p>
+          <p>Why is that? Because #each isn't going to handle math computations--it'll just give you back the array. But #map will!</p>
+      <div id="dharma_signature"><p>&#9784;</p></div>
+    </div>
+    <div id="copyright"><p>Copyright &#169; jordy williams 2014</p></div>
+  </body>
+</html>
