@@ -5,6 +5,12 @@
     <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="http://wiliajc87.github.io/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="http://wiliajc87.github.io/css/blog-stylesheet.css">
+    <script src="jquery.js"></script>
+    <script>
+    $(function(){
+      $("#includedContent").load("read_more.html");
+    });
+    </script>
   </head>
   <body>
     <div id="header">The Blog of jordy williams</div>
@@ -19,20 +25,8 @@
           </li>
       </ul>
     </div>
-        <div id="recent_posts">
-        <p id="wanna">Wanna read more?</p>
-          <ul id="post_list">
-<!--Because Uncle Ben Said So-->
-        <li><a href="http://wiliajc87.github.io/blog-posts/week4_cultural.html">Because Uncle Ben Said So</a></li>
-<!--Amerigo vs Wood-->
-        <li><a href="http://wiliajc87.github.io/blog-posts/week4_technical.html">Amerigo vs Wood</a></li>
-<!--Java-What?-->
-        <li><a href="http://wiliajc87.github.io/blog-posts/week3_technical.html">Java-what?</a></li>
-<!--Like a Pollock Painting-->
-        <li><a href="http://wiliajc87.github.io/blog-posts/week3_cultural.html">Like a Pollock Painting</a></li>
-<!--How I Learned To Love the Box-->
-        <li><a href="http://wiliajc87.github.io/blog-posts/week2_technical.html">How I Learned to Love the Box</a></li>
-          </ul>
+    <div id="recent_posts">
+      <div id="includedContent"></div>
     </div>
     <div id="post">
       <p id="title">Because Uncle Ben Said So</p>
