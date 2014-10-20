@@ -151,6 +151,18 @@ body{
                 {
                   color:blue;
                 }
+#full_list{
+  list-style: none;
+}
+                #post_list li a
+                {
+                  text-decoration: none;
+                  color:black;
+                }
+                #post_list a:hover
+                {
+                  color:blue;
+                }
 
 #copyright
 {
