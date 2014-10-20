@@ -11,12 +11,14 @@ body{
   margin-right:1%;
   width: 40%;
 }
+#welcome{
+  height: 325px;
+}
 div article{
   background-color: lightblue;
   float:right;
   clear: right;
-  height:250px;
-  overflow: auto;
+  height:inherit;
   margin-top:2%;
   margin-right:1%;
   max-width: 45%;
@@ -26,7 +28,6 @@ div article{
 #welcome{
   height: 325px;
 }
-
 article img{
     display: block;
     margin-left: auto;
