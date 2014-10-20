@@ -135,6 +135,7 @@ body{
   width:272px;
   margin:0;
 outline:none;
+border-style: none;
 }
 #recent_posts
 {
