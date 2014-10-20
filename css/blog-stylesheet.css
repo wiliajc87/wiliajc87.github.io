@@ -18,6 +18,9 @@ body{
   width: 20%;
 }
 /*Specific Settings*/
+#nav{
+  margin-top:8px;
+}
 #nav ul{
   border-radius: 30px;
 }
