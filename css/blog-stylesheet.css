@@ -160,6 +160,9 @@ body{
                   text-decoration: none;
                   color:black;
                 }
+                #full_list a{
+                  color:black;
+                }
                 #full_list a:hover
                 {
                   color:blue;
