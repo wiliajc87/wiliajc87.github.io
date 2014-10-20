@@ -99,7 +99,8 @@ body{
 #content h1{
   margin: 3px 3px 3px 10px;
   padding-left: 10px;
-}#content ul{
+}
+#content ul{
   margin: 3px 3px 3px 10px;
   padding-left: 10px;
 }
@@ -108,7 +109,7 @@ body{
   padding-left: 10px;
 }
 #content iframe {
-  padding-left: 15%;
+  padding-left: 10%;
 }
 #content code{
   font-size: 1.5em;
@@ -128,12 +129,10 @@ body{
   color:blue;
 }
 #post_frame{
-  background-color:#00AFD4;
   border-radius:20px;
   padding-top:10px;
   padding-right:-10px;
-
-
+  height:250px;
 }
 #recent_posts
 {
