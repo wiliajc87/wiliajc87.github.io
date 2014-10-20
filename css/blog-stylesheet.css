@@ -133,7 +133,7 @@ body{
   padding-right:-10px;
   height:190px;
   width:272px;
-  margin:0;
+  margin: 5px 5px 0px 10px;
 outline:none;
 border-style: none;
 }
