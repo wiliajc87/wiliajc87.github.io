@@ -112,6 +112,9 @@ body{
   margin: 7px 3px 3px 10px;
   padding-left: 15%;
 }
+#content ul li{
+  color: black;
+}
 #dharma_signature p
 {
   padding: 0;
@@ -145,6 +148,19 @@ body{
                   color:black;
                 }
                 #post_list a:hover
+                {
+                  color:blue;
+                }
+#full_list{
+  list-style: none;
+  text-decoration: none;
+}
+                #full_list li
+                {
+                  text-decoration: none;
+                  color:black;
+                }
+                #full_list a:hover
                 {
                   color:blue;
                 }
