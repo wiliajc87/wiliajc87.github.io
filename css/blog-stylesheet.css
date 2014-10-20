@@ -9,7 +9,7 @@ body{
   max-width: 73%;
   min-width: 75%
 }
-#twitter, #recent_posts{
+#twitter, #recent_posts, #post_frame{
   display:inline-block;
   float: right;
   clear: right;
@@ -126,6 +126,14 @@ body{
   margin-left:10px;
   font-size: 2em;
   color:blue;
+}
+#post_frame{
+  background-color:#00AFD4;
+  border-radius:20px;
+  padding-top:10px;
+  padding-right:-10px;
+
+
 }
 #recent_posts
 {
