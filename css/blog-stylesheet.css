@@ -129,6 +129,7 @@ body{
 }
 #recent_posts
 {
+  text-decoration: none;
   text-align: left;
   background-color:#00AFD4;
   border-radius:20px;
@@ -138,6 +139,7 @@ body{
 }
 #recent_posts ul{
   list-style: none;
+  text-decoration: none;
 }
                 #wanna
                 {
@@ -148,7 +150,7 @@ body{
                 {
                   margin-left: -18%;
                   text-decoration: none;
-                  color:black;
+                  color:blue;
                 }
                 #post_list a:hover
                 {
