@@ -132,7 +132,9 @@ body{
   border-radius:20px;
   padding-top:10px;
   padding-right:-10px;
-  height:250px;
+  height:180px;
+  width:252px;
+  margin:0;
 }
 #recent_posts
 {
