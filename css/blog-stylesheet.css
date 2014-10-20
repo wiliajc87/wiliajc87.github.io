@@ -9,7 +9,7 @@ body{
   max-width: 73%;
   min-width: 75%
 }
-#twitter, #recent_posts, #post_frame{
+#twitter, #post_frame{
   display:inline-block;
   float: right;
   clear: right;
