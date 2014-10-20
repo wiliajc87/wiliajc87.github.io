@@ -153,8 +153,9 @@ body{
                 }
 #full_list{
   list-style: none;
+  text-decoration: none;
 }
-                #post_list li a
+                #post_list li
                 {
                   text-decoration: none;
                   color:black;
