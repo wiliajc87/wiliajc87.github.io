@@ -155,12 +155,12 @@ body{
   list-style: none;
   text-decoration: none;
 }
-                #post_list li
+                #full_list li
                 {
                   text-decoration: none;
                   color:black;
                 }
-                #post_list a:hover
+                #full_list a:hover
                 {
                   color:blue;
                 }
