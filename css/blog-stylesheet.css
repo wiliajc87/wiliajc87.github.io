@@ -137,7 +137,7 @@ body{
   max-width:100%;
   max-height: 100%;
 }
-#recent_posts ul{
+#recent_posts{
   list-style: none;
   text-decoration: none;
 }
@@ -150,7 +150,7 @@ body{
                 {
                   margin-left: -18%;
                   text-decoration: none;
-                  color:blue;
+                  color:black;
                 }
                 #post_list a:hover
                 {
