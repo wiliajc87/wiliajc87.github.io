@@ -11,9 +11,6 @@ body{
   margin-right:1%;
   width: 40%;
 }
-#welcome{
-  background-color: red;
-}
 div article{
   background-color: lightblue;
   float:right;
