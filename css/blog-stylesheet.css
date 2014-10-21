@@ -18,6 +18,9 @@ body{
   width: 20%;
 }
 /*Specific Settings*/
+#side_bar{
+  position:fixed;
+}
 #nav{
   margin-top:2px;
 }
