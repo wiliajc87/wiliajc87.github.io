@@ -20,6 +20,8 @@ body{
 /*Specific Settings*/
 #side_bar{
   position:fixed;
+  display: inline;
+  float:right;
 }
 #nav{
   margin-top:2px;
