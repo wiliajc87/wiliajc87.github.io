@@ -22,6 +22,9 @@ body{
   position:fixed;
   display: inline;
   float:right;
+  margin: 15px 10px 5px 0px;
+  padding-left: 0;
+  width: 20%;
 }
 #nav{
   margin-top:2px;
