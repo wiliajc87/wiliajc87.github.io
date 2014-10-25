@@ -1,6 +1,5 @@
 body{
-  font-family:monospace, sans-serif;
-  font-weight: bold;
+font-family: 'Titillium Web', sans-serif;  font-weight: bold;
 }
 /*General Layout Settings*/
 #header, #post, #copyright, #nav{
