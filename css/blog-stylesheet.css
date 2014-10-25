@@ -181,6 +181,7 @@ border-style: none;
 }
                 #full_list li
                 {
+                  font-size: .75em;
                   text-decoration: none;
                   color:black;
                 }
