@@ -112,12 +112,12 @@ display: block;
 padding: 3% 3% 3% 3%;
 margin: 3% 0 0 3%;
 }
+#twitter{
+  display:hidden;
+}
 .navbar {
 width: 100%;
 height: 3em;
 margin: 2% 0 10% 0;
-}
-article {
-margin: -8% 0% 5% 3%;
 }
 }
