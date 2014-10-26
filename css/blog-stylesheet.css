@@ -215,7 +215,6 @@ background-color: lightblue;
     clear: both;
     float: none;
     height: 40%;
-    text-align: center;
     width: 90%;
     max-width: 90%;
     margin: 0 5% 30px;
@@ -227,7 +226,6 @@ background-color: lightblue;
 }
 #content code {
     font-size: 1em;
-    padding-left: 10%;
     color: black;
 }
 #content li {
