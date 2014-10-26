@@ -125,7 +125,10 @@ background-color: lightblue;
     max-width: 90%;
     margin: 0 5% 30px;
 }
-
+div article img{
+  clear:both;
+  float:none;
+}
 .navbar li {
 width: 100%;
 clear:both;
