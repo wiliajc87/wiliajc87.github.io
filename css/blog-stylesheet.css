@@ -21,7 +21,10 @@ font-family: 'Titillium Web', sans-serif;  font-weight: bold;
 display: inline;
     float: right;
     position: fixed;
-    width: 21%;}
+    width: 21%;
+    background-color:#00AFD4;
+  border-radius:20px;
+}
 #nav{
   margin-top:2px;
 }
