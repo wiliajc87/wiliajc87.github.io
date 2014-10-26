@@ -2,7 +2,7 @@ body{
 font-family: 'Titillium Web', sans-serif;  font-weight: bold;
 }
 /*General Layout Settings*/
-#header, #post, #copyright, #nav{
+#header, #post, #copyright, nav{
   display: inline-block;
   margin: 15px 8px 5px 20px;
   max-width: 73%;
@@ -25,10 +25,10 @@ display: inline;
     background-color:#00AFD4;
   border-radius:20px;
 }
-#nav{
+nav{
   margin-top:2px;
 }
-#nav ul{
+nav ul{
   border-radius: 30px;
 }
 #header, #copyright{
@@ -44,7 +44,7 @@ display: inline;
   height: 250px;
   width: 250px;
 }
-#nav ul
+nav ul
 {
     list-style-type: none;
     margin: 0;
@@ -52,12 +52,12 @@ display: inline;
     overflow: hidden;
     width: inherit;
 }
-              #nav li
+              nav li
                 {
                   float: left;
                   width: 25%;
                 }
-               #nav a
+               nav a
                 {
                     display: block;
                     background-color: #00AFD4;
@@ -66,7 +66,7 @@ display: inline;
                     text-decoration: none;
                     color:black;
                 }
-                #nav a:hover
+                nav a:hover
                 {
                     background-color:blue;
                 }
