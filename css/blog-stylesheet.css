@@ -231,6 +231,9 @@ background-color: lightblue;
 #content li {
 width: 90%;
 }
+#full_list li{
+  font-size: .75em;
+}
 #header {
     text-align: center;
     max-width: 90%;
