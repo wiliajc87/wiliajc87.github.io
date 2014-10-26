@@ -220,10 +220,6 @@ background-color: lightblue;
     max-width: 90%;
     margin: 0 5% 30px;
 }
-nav li {
-width: 100%;
-clear:both;
-}
 #content img{
   clear:both;
   float:none;
@@ -232,9 +228,23 @@ clear:both;
 #content li {
 width: 90%;
 }
+#header {
+    text-align: center;
+    max-width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
 footer {
   margin-top: 0px;
   width: 100%;
   clear:both;
+}
+nav {
+    margin-right: 10%;
+    margin-left: 13%;
+    width: 80%;
+}
+nav li {
+  width:100%;
 }
 }
