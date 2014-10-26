@@ -128,12 +128,13 @@ background-color: lightblue;
 div article img{
   clear:both;
   float:none;
+  margin: 3px 45% 5px 40%;
 }
 .navbar li {
 width: 100%;
 clear:both;
 }
 footer {
-  margin-top: 7px;
+  margin-top: 0px;
 }
 }
