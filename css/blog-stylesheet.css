@@ -220,6 +220,10 @@ background-color: lightblue;
     max-width: 90%;
     margin: 0 5% 30px;
 }
+nav li {
+width: 100%;
+clear:both;
+}
 #content img{
   clear:both;
   float:none;
