@@ -206,7 +206,7 @@ display: block;
 padding: 3% 3% 3% 3%;
 margin: 3% 0 0 3%;
 }
-#twitter{
+#side_bar{
   display:none;
 }
 #post{
@@ -219,7 +219,7 @@ background-color: lightblue;
     max-width: 90%;
     margin: 0 5% 30px;
 }
-div article img{
+#post img{
   clear:both;
   float:none;
   margin: 3px 45% 5px 40%;
