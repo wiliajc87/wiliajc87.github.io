@@ -122,6 +122,7 @@ background-color: lightblue;
     margin: 0 13% 13% 2%;
     text-align: center;
     width: 100%;
+    float:none;
   }
 
 .navbar li {
