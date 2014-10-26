@@ -72,6 +72,7 @@ nav ul
                 }
 #post {
   background-color: lightblue;
+  margin-top: -1%;
 }
 #title
 {
@@ -197,4 +198,37 @@ border-style: none;
 {
   display: block;
   max-width: 75%;
+}
+/*SMALL SCREEN*/
+@media (max-width: 748px) {
+.body {
+width: 90%;
+display: block;
+padding: 3% 3% 3% 3%;
+margin: 3% 0 0 3%;
+}
+#side_bar{
+  display:none;
+}
+#post{
+background-color: lightblue;
+    clear: both;
+    float: none;
+    height: 40%;
+    text-align: center;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 5% 30px;
+}
+#content img{
+  clear:both;
+  float:none;
+  margin: 3px 45% 5px 40%;
+}
+#content li {
+width: 90%;
+}
+footer {
+  margin-top: 0px;
+}
 }
