@@ -234,5 +234,7 @@ width: 90%;
 }
 footer {
   margin-top: 0px;
+  width: 100%;
+  clear:both;
 }
 }
