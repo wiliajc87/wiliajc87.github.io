@@ -18,13 +18,10 @@ font-family: 'Titillium Web', sans-serif;  font-weight: bold;
 }
 /*Specific Settings*/
 #side_bar{
-  position:fixed;
-  display: inline;
-  float:right;
-  margin: -13px 3% 4% 0;
-  padding-left: 1%;
-  width: 20%;
-}
+display: inline;
+    float: right;
+    position: fixed;
+    width: 21%;}
 #nav{
   margin-top:2px;
 }
