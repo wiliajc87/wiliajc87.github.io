@@ -119,11 +119,9 @@ div article{
 background-color: lightblue;
     clear: both;
     height: 40%;
-    margin-right: 26%;
+    margin: 0 13% 13% 2%;
     text-align: center;
     width: 100%;
-    margin-bottom: 2%;
-    margin-bottom: 0;
   }
 
 .navbar li {
