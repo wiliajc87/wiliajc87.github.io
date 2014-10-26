@@ -198,3 +198,37 @@ border-style: none;
   display: block;
   max-width: 75%;
 }
+/*SMALL SCREEN*/
+@media (max-width: 748px) {
+.body {
+width: 90%;
+display: block;
+padding: 3% 3% 3% 3%;
+margin: 3% 0 0 3%;
+}
+#twitter{
+  display:none;
+}
+div article{
+background-color: lightblue;
+    clear: both;
+    float: none;
+    height: 40%;
+    text-align: center;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 5% 30px;
+}
+div article img{
+  clear:both;
+  float:none;
+  margin: 3px 45% 5px 40%;
+}
+.navbar li {
+width: 100%;
+clear:both;
+}
+footer {
+  margin-top: 0px;
+}
+}
