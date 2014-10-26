@@ -225,6 +225,11 @@ background-color: lightblue;
     margin: 3px 5% 2px 5%;
     width: 90%;
 }
+#content code {
+    font-size: 1em;
+    padding-left: 10%;
+    color: black;
+}
 #content li {
 width: 90%;
 }
