@@ -200,7 +200,7 @@ border-style: none;
   max-width: 75%;
 }
 /*SMALL SCREEN*/
-@media (max-width: 748px) {
+@media (max-width: 1200px) {
 .body {
 width: 90%;
 display: block;
