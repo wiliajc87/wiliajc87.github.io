@@ -67,34 +67,34 @@ footer i {
 }
 
 .img1 {
-  background-image: URL('file:///Users/jordy_williams14/Desktop/wiliajc87.github.io/imgs/kid-superhero.jpg');
+  background-image: URL('http://wiliajc87.github.io/imgs/kid-superhero.jpg');
   display: none;
 }
 
 .img2 {
-  background-image: URL('file:///Users/jordy_williams14/Desktop/wiliajc87.github.io/imgs/geordi.jpg');
+  background-image: URL('http://wiliajc87.github.io/imgs/geordi.jpg');
   display: none;
 }
 
 .img3 {
-  background-image: URL('file:///Users/jordy_williams14/Desktop/wiliajc87.github.io/imgs/sinatra.jpg');
+  background-image: URL('http://wiliajc87.github.io/imgs/sinatra.jpg');
   display: none;
 }
 
 .img4 {
-  background-image: URL('file:///Users/jordy_williams14/Desktop/wiliajc87.github.io/imgs/reagan.png');
+  background-image: URL('http://wiliajc87.github.io/imgs/reagan.png');
   display: none;
   right: 0;
 }
 
 .img5 {
-  background-image: URL('file:///Users/jordy_williams14/Desktop/wiliajc87.github.io/imgs/chicken-rachel.jpg');
+  background-image: URL('http://wiliajc87.github.io/imgs/chicken-rachel.jpg');
   display: none;
   right: 0;
 }
 
 .img6 {
-  background-image: URL('file:///Users/jordy_williams14/Desktop/wiliajc87.github.io/imgs/von.jpg');
+  background-image: URL('http://wiliajc87.github.io/imgs/von.jpg');
   display: none;
   right: 0;
 }
