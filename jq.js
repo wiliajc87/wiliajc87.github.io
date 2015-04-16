@@ -86,8 +86,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $( ".fa-rebel" ).hover(
-  function() { $( this ).addClass( "fa-spin" );
+  function() { $( this ).addClass( "fa-empire" ).removeClass( "fa-rebel" );
   }, function() {
-  $( this ).removeClass( "fa-spin" );
+  $( this ).addClass( "fa-rebel" ).removeClass( "fa-empire" );
   });
 });
